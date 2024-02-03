@@ -10,9 +10,7 @@
     "test": "jest",
     "web": "webpack serve -d source-map --mode development --config \"./web/webpack.config.js\" --color --hot",
     "build:web": "webpack --mode production --config \"./web/webpack.config.js\" --hot",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build"
+
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.9",
