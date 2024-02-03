@@ -9,7 +9,7 @@
     "start": "react-native start",
     "test": "jest",
     "web": "webpack serve -d source-map --mode development --config \"./web/webpack.config.js\" --color --hot",
-    "build:web": "webpack --mode production --config \"./web/webpack.config.js\" --hot",
+    "build:web": "webpack --mode production --config \"./web/webpack.config.js\""
 
   },
   "dependencies": {
